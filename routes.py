@@ -21,7 +21,7 @@ def facetime():
     try:
         if(request.cookies.get('login')=='true'):
             #initializing the server connection
-            yag = yagmail.SMTP(user='hifromlillysandmeier@gmail.com', password='Luv4soccer.1')
+            yag = yagmail.SMTP(user='hifromlillysandmeier@gmail.com', password='**********')
             #sending the email
             yag.send(to='ccummins@u.rochester.edu', subject='Facetime!!', contents='Can you FaceTime me?? -Lilly')
             print("Email sent successfully")
